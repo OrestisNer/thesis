@@ -1,21 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Button from '@material-ui/core/Button'
+import Dashboard from './components/layouts/Dashboard'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Button
-          variant="contained"
-          style={{
-            fontSize: 40
-          }}
-        >
-          Hello World
-        </Button>
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
+      <Dashboard/>
     </div >
   );
 }
